@@ -1,3 +1,14 @@
+Para executar o projeto
+Na pasta do projeto
+Execute php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+-> php composer-setup.php
+-> php composer.phar install
+-> php artisan migrate 
+-> php artisan key:generate (gerar a chave para executar o projeto)
+-> php artisan serve  
+
+A base está setado no arquivo .env, ajuste para o seu servidor as configurações.
+
 # teste-crud
  Crud em Lavarel
 
